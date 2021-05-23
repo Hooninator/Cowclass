@@ -1,0 +1,12 @@
+class Cow:
+    def __init__(self, moo, age, weight):
+        self.moo = moo
+        self.age = age
+        self.weight = weight
+    def super_moo(self):
+        for i in range(0, self.moo):
+            print('moo')
+
+a = Cow(4, 55, 100000)
+
+a.super_moo()
